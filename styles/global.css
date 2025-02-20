@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -37,4 +38,8 @@
     --heading2: 700 1.5rem/120% var(--font-family);
     --heading3: 700 1.25rem/120% var(--font-family);
     --heading4: 700 1rem/120% var(--font-family);
+}
+
+body{
+    overflow: hidden;
 }
