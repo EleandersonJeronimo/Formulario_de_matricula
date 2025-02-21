@@ -2,7 +2,8 @@ input, textarea, select{
     appearance: none;
     width: 100%;
     border-radius: 0.5rem;
-    border: 1px solid var(--stroke-default);
+    border: 2px solid transparent;
+    outline: 1px solid var(--stroke-default); ;
     padding: 0.75rem 1rem;
 
     font: var(--text);
@@ -57,7 +58,7 @@ select{
 input{
     &[disabled]{
         background-color: var(--surface-disabled);
-        border: 1px solid var(--stroke-default);
+        border-color: var(--stroke-default);
         color: var(--text-primary);
     }
 
